@@ -1,4 +1,4 @@
-class LocalStorage1 {
+class LocalStorage {
   constructor() {
     this.map = new Map();
   }
@@ -26,7 +26,7 @@ class LocalStorage1 {
     console.log(this.map.size);
   }
 }
-let arr = new LocalStorage1();
+let arr = new LocalStorage();
 arr.setItem("name", "Kaif");
 arr.setItem("age", 21);
 arr.setItem("city", "Jaipur");
