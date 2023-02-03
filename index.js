@@ -31,7 +31,7 @@ class LocalStorage {
     }
   }
   legth() {
-    console.log(this.map.size);
+    console.log(`Total Element in the localstorage - ${this.map.size}`);
   }
 }
 let arr = new LocalStorage();
