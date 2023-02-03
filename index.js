@@ -39,8 +39,8 @@ arr.setItem("name", "Kaif");
 arr.setItem("age", 21);
 arr.setItem("city", "Jaipur");
 arr.getItem("jome");
-// arr.removeItem("name")
-// arr.clear();
-// arr.removeItem("state");
-// arr.legth();
-// console.log(arr);
+arr.removeItem("name")
+arr.clear();
+arr.removeItem("state");
+arr.legth();
+console.log(arr);
