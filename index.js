@@ -38,7 +38,7 @@ let arr = new LocalStorage();
 arr.setItem("name", "Kaif");
 arr.setItem("age", 21);
 arr.setItem("city", "Jaipur");
-arr.getItem("jome");
+arr.getItem("age");
 arr.removeItem("name")
 arr.clear();
 arr.removeItem("state");
