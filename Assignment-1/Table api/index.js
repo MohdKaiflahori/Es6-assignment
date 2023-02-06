@@ -1,5 +1,4 @@
-axios
-  .get("https://jsonplaceholder.typicode.com/albums")
+axios.get("https://jsonplaceholder.typicode.com/albums")
   .then((res) => res.data)
   .then((data) =>
     data.map((v) => {
